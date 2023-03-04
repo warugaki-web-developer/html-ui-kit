@@ -7,7 +7,9 @@
     "npm": "9.5.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "repository": {
     "type": "git",
@@ -19,5 +21,18 @@
   "bugs": {
     "url": "https://github.com/warugaki-web-developer/html-ui-kit/issues"
   },
-  "homepage": "https://github.com/warugaki-web-developer/html-ui-kit#readme"
+  "homepage": "https://github.com/warugaki-web-developer/html-ui-kit#readme",
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.0-beta.61",
+    "@storybook/addon-interactions": "^7.0.0-beta.61",
+    "@storybook/addon-links": "^7.0.0-beta.61",
+    "@storybook/blocks": "^7.0.0-alpha.8",
+    "@storybook/html": "^7.0.0-beta.61",
+    "@storybook/html-vite": "^7.0.0-beta.61",
+    "@storybook/testing-library": "^0.0.14-next.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.0.0-beta.61"
+  },
+  "peerDependencies": {}
 }
