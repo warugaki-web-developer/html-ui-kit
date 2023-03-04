@@ -1,0 +1,19 @@
+{
+  "name": "html-ui-kit",
+  "version": "1.0.0",
+  "description": "Html UI component catalog using storybook for html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warugaki-web-developer/html-ui-kit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/warugaki-web-developer/html-ui-kit/issues"
+  },
+  "homepage": "https://github.com/warugaki-web-developer/html-ui-kit#readme"
+}
