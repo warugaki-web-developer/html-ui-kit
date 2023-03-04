@@ -2,6 +2,10 @@
   "name": "html-ui-kit",
   "version": "1.0.0",
   "description": "Html UI component catalog using storybook for html",
+  "engines": {
+    "node": "18.14.2",
+    "npm": "9.5.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
