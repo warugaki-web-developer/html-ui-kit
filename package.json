@@ -7,7 +7,8 @@
     "npm": "9.5.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:prettier": "prettier --check --ignore-path .gitignore './stories/**/*.{js,ts,cjs,mjs,json,css,scss}'",
+    "fix:prettier": "prettier --write --ignore-path .gitignore './stories/**/*.{js,ts,cjs,mjs,json,css,scss}'",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
@@ -32,6 +33,7 @@
     "@storybook/testing-library": "^0.0.14-next.1",
     "autoprefixer": "^10.4.13",
     "postcss-nested": "^6.0.1",
+    "prettier": "^2.8.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "storybook": "^7.0.0-beta.61"
